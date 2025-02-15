@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ebab637205231124cbde1d39a9f5e7fd
+guid: 3fdf001edd62a1346b447ab1abca2a26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3836954968553550457
-    second: sky_0
+      213: 8329005970385267546
+    second: building_05_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sky_0
+      name: building_05_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 180
+        width: 116
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 972fdcff63a9f3530800000000000000
-      internalID: 3836954968553550457
+      spriteID: a5bebe41dc2969370800000000000000
+      internalID: 8329005970385267546
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      building_05_0: 8329005970385267546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

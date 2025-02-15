@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d6f337d14d2048242a20cfd9ce38d61f
+guid: 106daf4342be08a45ab82735eb3458e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2925002341216333216
-    second: baechu_0
+      213: -8944997348610683000
+    second: garlic_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: baechu_0
+      name: garlic_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
-        height: 18
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0625d943edd4867d0800000000000000
-      internalID: -2925002341216333216
+      spriteID: 88fcf37dd4cfcd380800000000000000
+      internalID: -8944997348610683000
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      garlic_0: -8944997348610683000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

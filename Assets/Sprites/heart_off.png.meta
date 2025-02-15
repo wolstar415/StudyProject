@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e0a7848e944ded644a3efd0316b28a33
+guid: bbcc673b2c479784f9abde30966e028c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3500759553075992606
-    second: start_button_0
+      213: 3054613455101831404
+    second: heart_off_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: start_button_0
+      name: heart_off_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 108
-        height: 24
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e7a9dafbbdca6fc0800000000000000
-      internalID: -3500759553075992606
+      spriteID: ce8297dd0ca246a20800000000000000
+      internalID: 3054613455101831404
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heart_off_0: 3054613455101831404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1a49636ab2290bf45831cbe53c4bca05
+guid: e4e613c30a15c9247bfc3e6daa153ddf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3878557786174838139
-    second: ground_0
+      213: 49480121399713621
+    second: gochu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ground_0
+      name: gochu_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 23
+        width: 19
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58a29323e389c2ac0800000000000000
-      internalID: -3878557786174838139
+      spriteID: 55f197388e9cfa000800000000000000
+      internalID: 49480121399713621
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gochu_0: 49480121399713621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

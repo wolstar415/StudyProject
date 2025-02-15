@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 106daf4342be08a45ab82735eb3458e6
+guid: 54f7d2235abdab945bab0f3d0d27aa91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8944997348610683000
-    second: garlic_0
+      213: 5660778534962921104
+    second: halmoni_0
+  - first:
+      213: 5164513745427541781
+    second: halmoni_1
+  - first:
+      213: -8769359099624858585
+    second: halmoni_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: garlic_0
+      name: halmoni_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 18
-        height: 23
+        width: 21
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88fcf37dd4cfcd380800000000000000
-      internalID: -8944997348610683000
+      spriteID: 09efe90e5102f8e40800000000000000
+      internalID: 5660778534962921104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halmoni_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fa4d183e90ca740800000000000000
+      internalID: 5164513745427541781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halmoni_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c55076c5afc4680800000000000000
+      internalID: -8769359099624858585
       vertices: []
       indices: 
       edges: []
@@ -134,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      halmoni_0: 5660778534962921104
+      halmoni_1: 5164513745427541781
+      halmoni_2: -8769359099624858585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
