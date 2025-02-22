@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance==null)
+        if (Instance == null)
         {
             Instance = this;
         }
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
 
     public float CalculateGameSpeed()
     {
-        if(State!=GameState.Playing)
+        if (State != GameState.Playing)
         {
             return 5f;
         }
@@ -88,13 +88,13 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-            if (State == GameState.Playing)
-            {
-                txt_score.text = $"Score : { CalculateScore():F0}";
-            }
-            else if (State == GameState.Dead)
-            {
-            txt_score.text = $"High Score : {GetHighScore()}";
+        if (State == GameState.Playing)
+        {
+            txt_score.text = $"Score : {CalculateScore():F0}";
+        }
+        else if (State == GameState.Dead)
+        {
+            txt_score.text = $"High Score : {GetHighScore():F0}";
         }
         if (State == GameState.Intro && Input.GetKeyDown(KeyCode.Space))
         {
@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
             PlayStartTime = Time.time;
         }
 
-        if(State == GameState.Playing && lives == 0)
+        if (State == GameState.Playing && lives == 0)
         {
             State = GameState.Dead;
             EnemySpawner.SetActive(false);
@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
             SaveHighScore();
         }
 
-        if(State == GameState.Dead && Input.GetKeyDown(KeyCode.Space))
+        if (State == GameState.Dead && Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene("Main");
         }
